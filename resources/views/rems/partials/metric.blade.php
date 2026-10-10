@@ -1,0 +1,1 @@
+<div class="col-sm-6 col-xl-3"><div class="metric-card h-100"><div class="metric-icon metric-{{ $tone ?? 'blue' }}"><i class="bi bi-{{ $icon }}"></i></div><div class="metric-value">{{ number_format((int)$value) }}</div><div class="metric-label">{{ $label }}</div><div class="metric-caption"><span class="small-dot"></span>Live company records</div></div></div>
